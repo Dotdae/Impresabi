@@ -28,7 +28,10 @@ const Info = styled.div`
     text-align: center;
     background-color: #e73b3b;
     width: 100%;
-
+    
+    h3{
+        color:white;
+    }
     @media (min-width: 375px) and (max-width: 768px){
 
         height: 300px;
@@ -36,7 +39,6 @@ const Info = styled.div`
         .info-text{
 
             margin-top: 50px;
-
         }
 
     }
