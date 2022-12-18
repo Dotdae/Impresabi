@@ -1,8 +1,12 @@
-import {Carteleras} from '../components/Home/Carteleras';
+import {Carrusel} from '../components/Home/Cartelera/Carrusel';
+import {Mapa} from '../components/Home/Mapa/Mapa'
 
 export function Home() {
   return(
-        <Carteleras/>
+    <>
+        <Carrusel/>
+        <Mapa/>
+    </>
   );
 }
 
