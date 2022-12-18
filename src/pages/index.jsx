@@ -1,11 +1,13 @@
 import {Carrusel} from '../components/Home/Cartelera/Carrusel';
 import {Mapa} from '../components/Home/Mapa/Mapa'
+import{Whats} from '../components/Whats/Whats'
 
 export function Home() {
   return(
     <>
         <Carrusel/>
         <Mapa/>
+        <Whats/>
     </>
   );
 }
