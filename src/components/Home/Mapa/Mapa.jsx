@@ -1,5 +1,5 @@
-import styled from "styled-components"
-
+import styled from "styled-components";
+import vidio from "../../../assets/video.mp4";
 const MapContainer = styled.div`
 
     display: flex;
@@ -28,20 +28,28 @@ const Info = styled.div`
     text-align: center;
     background-color: #e73b3b;
     width: 100%;
-    
+
+
+    h3, span{
+        color: white;
+    }
     @media (min-width: 375px) and (max-width: 768px){
 
         height: 300px;
 
         .info-text{
-
             margin-top: 50px;
-        }
-
+        }       
     }
 
 `;
 
+const VideoFachada = styled.div`
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
+
+`;
 
 export function Mapa() {
   return (
@@ -63,6 +71,11 @@ export function Mapa() {
                 <span><strong>Lunes a Sabado:</strong></span>
                 <span> 8:00-13:00, 14:00-17:00 </span>
             </div>
+            <VideoFachada>
+                <video autoPlay loop>
+                    <source src={vidio}/>
+                </video>
+            </VideoFachada>
         </Info>
     </MapContainer>
   )

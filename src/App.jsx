@@ -9,6 +9,7 @@ import { Home, Servicios, About } from "./pages";
 import { Navbar } from "./components/Nav/Navbar";
 import { Footer } from "./components/Footer/Footer";
 
+
 export default function App() {
   return (
     <BrowserRouter>
