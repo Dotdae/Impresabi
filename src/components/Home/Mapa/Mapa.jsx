@@ -35,7 +35,7 @@ const Info = styled.div`
     }
     @media (min-width: 375px) and (max-width: 768px){
 
-        height: 300px;
+        height: 400px;
 
         .info-text{
             margin-top: 50px;
@@ -45,9 +45,27 @@ const Info = styled.div`
 `;
 
 const VideoFachada = styled.div`
-    width: 100%;
-    height: 150px;
-    padding-top: 10px;
+
+    video{
+
+        width: 100%;
+        height: 300px;
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+    @media (min-width: 375px) and (max-width: 768px){
+
+        video{
+
+            margin-top: 30px;
+            height: 200px;
+
+
+        }
+
+    }
+
 
 `;
 
