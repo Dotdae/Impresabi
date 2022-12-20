@@ -55,7 +55,7 @@ export function Mapa() {
               aria-hidden="false"
               tabIndex="0"
             />
-        <Info class="container-info-ubication">
+        <Info className="container-info-ubication">
             <div className="info-text">
                 <h3>Nos encontramos en:</h3>
                 <span> Av. Independencia 1400, Jardines del Valle, 81245 Los Mochis, Sin</span>

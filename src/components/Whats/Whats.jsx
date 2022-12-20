@@ -21,7 +21,7 @@ const Whatstyle = styled.div`
 export function Whats() {
   return (
     <Whatstyle>
-      <a href="https://wa.me/+526681078649" class="whatsapp" target="_blank">
+      <a href="https://wa.me/+526681078649" className="whatsapp" target="_blank">
         {" "}
         <FaWhatsapp className="wsp-logo"/>
       </a>
