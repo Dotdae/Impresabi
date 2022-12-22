@@ -191,7 +191,7 @@ export function Footer() {
         <div>
           <i className="fa fa-map-marker"></i>
           <p>
-            Av. Independencia 1400, Jardines del Valle, 81245 Los Mochis, Sin.
+            Av. Independencia 1430, Jardines del Valle, 81245 Los Mochis, Sin.
           </p>
         </div>
         <div>

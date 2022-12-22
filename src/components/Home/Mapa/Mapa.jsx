@@ -35,7 +35,7 @@ const Info = styled.div`
     }
     @media (min-width: 375px) and (max-width: 768px){
 
-        height: 400px;
+        height: 300px;
 
         .info-text{
             margin-top: 50px;
@@ -45,27 +45,9 @@ const Info = styled.div`
 `;
 
 const VideoFachada = styled.div`
-
-    video{
-
-        width: 100%;
-        height: 300px;
-        margin-top: 40px;
-        padding: 10px;
-    }
-
-    @media (min-width: 375px) and (max-width: 768px){
-
-        video{
-
-            margin-top: 30px;
-            height: 200px;
-
-
-        }
-
-    }
-
+    width: 100%;
+    height: 150px;
+    padding-top: 10px;
 
 `;
 
@@ -81,10 +63,10 @@ export function Mapa() {
               aria-hidden="false"
               tabIndex="0"
             />
-        <Info className="container-info-ubication">
+        <Info class="container-info-ubication">
             <div className="info-text">
                 <h3>Nos encontramos en:</h3>
-                <span> Av. Independencia 1400, Jardines del Valle, 81245 Los Mochis, Sin</span>
+                <span> Av. Independencia 1430, Jardines del Valle, 81245 Los Mochis, Sin</span>
                 <h3> Nuestro horario es:</h3>
                 <span><strong>Lunes a Sabado:</strong></span>
                 <span> 8:00-13:00, 14:00-17:00 </span>
