@@ -1,3 +1,4 @@
+
 import styled from "styled-components";
 import { SlNote } from "react-icons/sl";
 import { RiPenNibLine } from "react-icons/ri";
@@ -48,17 +49,20 @@ const InfoIcon = styled.div`
 
 const DatoEmpresa = styled.div`
         display: flex;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: red;
+        width: 60%;
+        height: 150px;
         justify-content: center;
         align-items: center;
-        background-color: red;
-        color: white;
-        width: 100%;
-        height: 150px;
-        padding: 10px;
         p{
-            font-size: 15px;
+            font-size: 20px;
             padding: 10px;
             margin: 10px;
+            color: white;
+            
         }
 
 `;
@@ -83,7 +87,7 @@ const InfoVM = styled.div`
         }
 
         p{
-            font-size: 15px;
+            font-size: 18px;
             padding: 10px;
             margin: 10px;
         }
@@ -109,9 +113,8 @@ export function InfoEmpresa(){
         </IconContainer>
         
         <DatoEmpresa>
-            <p>Ser la mejor empresa en la creación de imagen, utilizando materiales de calidad para de esta manera lograr la satisfacci&oacute;n de nuestros clientes.</p>
+            <p> En <b>ImpresABI</b> buscamos ser la mejor empresa en la creación de imagen, utilizando materiales de calidad para de esta manera lograr la satisfacci&oacute;n de nuestros clientes.</p>
         </DatoEmpresa>
-        
         <VisionMision>
             <InfoVM>
                 < GiArrowScope className="icon-style"/>
