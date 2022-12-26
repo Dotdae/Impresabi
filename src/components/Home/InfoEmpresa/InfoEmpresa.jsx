@@ -10,7 +10,7 @@ import { IoEyeOutline } from "react-icons/io5";
 const Quienes = styled.div`
         background-color:#e2e2e2;
         display: block;
-        height: 500px;
+        height: 600px;
         border: 1px solid red;
         margin: 25px;
         text-align: center;
@@ -27,7 +27,6 @@ const IconContainer = styled.div`
         gap: 25px;
         justify-content: center;
         align-items: center;
-        border: 1px solid blue;
         width: 100%;
         height: 150px;
         margin-top: 5px;
@@ -69,27 +68,31 @@ const DatoEmpresa = styled.div`
 
 const VisionMision = styled.div`
         display: flex;
-        border: 1px solid cyan;
         width: 100%;
+        gap: 25px;
         justify-content: center;
         text-align: center;
 `;
 
 const InfoVM = styled.div`
-        text-align: center;
-        justify-content: center;
+        display: block;
+        width: 80%;
+        height: 200px;
         color: red;
-        padding: 10px;
-
+        justify-content:center;
+    
         .icon-style{
-            font-size: 50px;
-
+            font-size: 60px;
+            margin-top: 5px;
+        }
+        h3{
+            font-size: 30px;
+            padding-top: 25px;
         }
 
         p{
-            font-size: 18px;
-            padding: 10px;
-            margin: 10px;
+            font-size: 20px;
+            padding: 20px; 
         }
 `;
 
@@ -117,11 +120,11 @@ export function InfoEmpresa(){
         </DatoEmpresa>
         <VisionMision>
             <InfoVM>
-                < GiArrowScope className="icon-style"/>
+                <h3 className="title">MISIÓN</h3>
                 <p>Lograr un crecimiento y una mayor participaci&oacute;n en el mercado de la impresi&oacute;n, dejando huella en cada uno de nuestros clientes.</p>
             </InfoVM>
             <InfoVM>
-                < IoEyeOutline className="icon-style"/>
+                <h3 className="title">VISIÓN</h3>
                 <p>Ser la mejor empresa en la creaci&oacute;n de imagen, utilizando materiales de calidad para de esta manera lograr la satisfacci&oacute;n de nuestros clientes.</p>
             </InfoVM>
         </VisionMision>
