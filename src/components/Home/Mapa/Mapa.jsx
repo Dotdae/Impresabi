@@ -28,14 +28,13 @@ const Info = styled.div`
     text-align: center;
     background-color: #e73b3b;
     width: 100%;
-
-
+    padding-top: 15px;
     h3, span{
         color: white;
     }
     @media (min-width: 375px) and (max-width: 768px){
 
-        height: 300px;
+        height: 350px;
 
         .info-text{
             margin-top: 50px;
@@ -45,10 +44,22 @@ const Info = styled.div`
 `;
 
 const VideoFachada = styled.div`
-    width: 100%;
-    height: 150px;
-    padding-top: 10px;
+    video{
+        display:flex;
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+        padding: 10px;
+    }
 
+    @media (min-width: 375px) and (max-width: 768px){
+
+        video{
+            margin-top: 30px;
+            height: 200px;
+        }
+
+    }
 `;
 
 export function Mapa() {

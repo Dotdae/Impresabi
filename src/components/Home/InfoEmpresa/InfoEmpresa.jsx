@@ -17,6 +17,7 @@ const Quienes = styled.div`
         h3{
             color: #d30226;
             font-size:  40px;
+            padding: 10px;
         
         }
     
@@ -83,7 +84,7 @@ const InfoVM = styled.div`
     
         .icon-style{
             font-size: 60px;
-            margin-top: 5px;
+            margin-top: 5px; 
         }
         h3{
             font-size: 30px;
@@ -92,7 +93,7 @@ const InfoVM = styled.div`
 
         p{
             font-size: 20px;
-            padding: 20px; 
+            padding: 15px; 
         }
 `;
 
