@@ -140,11 +140,8 @@ export function Services() {
             <IconContainer><a><RxLetterCaseCapitalize className="letras"/>Letras 3D</a></IconContainer>
             <IconContainer><a><TbTruckDelivery className="rotulacion"/>Rotulación</a></IconContainer>
             <IconContainer><a><RiFolderUserLine className="cartelera"/>Impresión a gran formato</a></IconContainer>
-        </ul>
-        <ImageStyle>
-            <ReactBeforeSliderComponent firstImage={second_Image} secondImage={first_Image} />
-        </ImageStyle>
-
+        </ul>   
+    
     </ServicesConteiner>
   )
 }

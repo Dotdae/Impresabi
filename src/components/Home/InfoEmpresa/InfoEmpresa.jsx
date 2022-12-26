@@ -3,9 +3,6 @@ import styled from "styled-components";
 import { SlNote } from "react-icons/sl";
 import { RiPenNibLine } from "react-icons/ri";
 import { BsImages } from "react-icons/bs";
-import { IoIosRocket} from "react-icons/io";
-import { GiArrowScope } from "react-icons/gi";
-import { IoEyeOutline } from "react-icons/io5";
 
 const Quienes = styled.div`
         background-color:#e2e2e2;

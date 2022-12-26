@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import logo from "../../assets/logo.png";
-
+import { FaMapMarkerAlt,FaPhoneAlt, FaFacebook} from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 const FooterStyled = styled.footer`
   background: #d30226;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -39,7 +40,7 @@ const FooterStyled = styled.footer`
         left: 0;
         color: #fff;
         display: inline-block;
-        padding-right: 5px;
+        padding-right:40;
       }
     }
     .link-1:before {
@@ -70,7 +71,7 @@ const FooterStyled = styled.footer`
       cursor: pointer;
       background-color: #33383b;
       border-radius: 2px;
-      font-size: 20px;
+      font-size: 24px;
       color: #ffffff;
       text-align: center;
       line-height: 35px;
@@ -102,12 +103,10 @@ const FooterCenter = styled.div`
   vertical-align: top;
   width: 35%;
 
-  i {
-    background-color: #33383b;
+  .icon-style{
     color: #ffffff;
-    font-size: 20px;
-    width: 38px;
-    height: 38px;
+    font-size: 40px;
+    height: 30px;
     border-radius: 50%;
     text-align: center;
     line-height: 38px;
@@ -165,6 +164,10 @@ const FooterRight = styled.div`
   }
 `;
 
+const IconFooter = styled.div`
+
+`;
+
 export function Footer() {
   return (
     <FooterStyled id="contact">
@@ -188,30 +191,32 @@ export function Footer() {
         <p className="footer-company-name">Impresabi © 2022</p>
       </FooterLeft>
       <FooterCenter>
-        <div>
-          <i className="fa fa-map-marker"></i>
-          <p>
-            Av. Independencia 1430, Jardines del Valle, 81245 Los Mochis, Sin.
-          </p>
-        </div>
-        <div>
-          <i className="fa fa-phone"></i>
+
+        <IconFooter>
+          <i><FaMapMarkerAlt className="icon-style"></FaMapMarkerAlt></i>
+          <p> Av. Independencia 1430, Jardines del Valle, 81245 Los Mochis, Sin.</p>
+        </IconFooter>
+        
+        <IconFooter>
+          <FaPhoneAlt className="icon-style"></FaPhoneAlt>
           <p>66 81 65 84 24</p>
-        </div>
-        <div>
-          <i className="fa fa-envelope"></i>
+        </IconFooter>
+        
+        <IconFooter>
+          <MdEmail className="icon-style"></MdEmail>
           <p>
             <a href="mailto:support@company.com">
               atencionclientes@impresabi.com
             </a>
           </p>
-        </div>
+        </IconFooter>
+      
       </FooterCenter>
       <FooterRight>
         <h3>Siguenos en</h3>
         <div className="footer-icons">
           <a href="https://www.facebook.com/Impresabi">
-            <i className="fa fa-facebook"></i>
+            <FaFacebook></FaFacebook>
           </a>
           <p>Impresabi</p>
         </div>
