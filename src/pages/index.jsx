@@ -23,3 +23,4 @@ export function Servicios() {
 export function About() {
   return <div>Esta es la página about</div>;
 }
+
