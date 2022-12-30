@@ -115,22 +115,6 @@ const IconContainer = styled.li`
 
 `;
 
-const first_Image = {
-    imageUrl: 'https://i.pinimg.com/736x/be/0c/bb/be0cbb81b785a62323efd877b31a690c.jpg'
-}
-const second_Image = {
-    imageUrl: 'https://otakukart.com/wp-content/uploads/2020/01/Zoro-One-Piece-1024x640.jpg'
-}
-const ImageStyle = styled.div`
-
-    img{
-
-        width: 100%;
-        height: 250px
-
-    }
-
-`
 
 export function Services() {
   return (
@@ -141,7 +125,6 @@ export function Services() {
             <IconContainer><a><TbTruckDelivery className="rotulacion"/>Rotulación</a></IconContainer>
             <IconContainer><a><RiFolderUserLine className="cartelera"/>Impresión a gran formato</a></IconContainer>
         </ul>   
-    
     </ServicesConteiner>
   )
 }

@@ -206,8 +206,7 @@ export function Footer() {
           <MdEmail className="icon-style"></MdEmail>
           <p>
             <a href="mailto:atencionaclientes@impresabi.com">
-              atencionaclientes@impresabi.com
-            </a>
+                atencionaclientes@impresabi.com</a>
           </p>
         </IconFooter>
       

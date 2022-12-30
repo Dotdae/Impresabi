@@ -9,6 +9,7 @@ import { Home, Servicios, About } from "./pages";
 import { Navbar } from "./components/Nav/Navbar";
 import { Footer } from "./components/Footer/Footer";
 import { CartelerasMuestras } from "./components/Home/Cartelera/Muestras";
+import { Rotulacion } from "./components/Home/Rotulacion/Rotulacion";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/servicios" element={<Servicios />}></Route>
         <Route path="/about" element={<About />}></Route>
       </Routes>
+      <Rotulacion/>
       <CartelerasMuestras/>
       <Footer/>
     </BrowserRouter>

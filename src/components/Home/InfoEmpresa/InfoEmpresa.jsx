@@ -5,10 +5,9 @@ import { RiPenNibLine } from "react-icons/ri";
 import { BsImages } from "react-icons/bs";
 
 const Quienes = styled.div`
-        background-color:#e2e2e2;
+        
         display: block;
         height: 600px;
-        border: 1px solid red;
         margin: 25px;
         text-align: center;
         h3{

@@ -5,8 +5,6 @@ const CardsContainer = styled.div`
         width: 90%;
         margin: 5%;
         grid-gap: 30px;
-        background-color: blue;
-
 
 `;
 
