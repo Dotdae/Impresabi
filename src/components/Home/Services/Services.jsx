@@ -9,11 +9,13 @@ import 'react-before-after-slider-component/dist/build.css';
 
 const ServicesConteiner = styled.div`
 
-    width: 100%;
-    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-top: -10px;
+    position: relative;
+    z-index: 999;
 
 `;
 
@@ -31,11 +33,9 @@ const IconContainer = styled.li`
     &:before{
 
         content: " ";
-        background-color: #d30226;
         width: 100%;
         height: 5px;
         bottom: 0;
-        position: absolute;
         display: inline;
         transition: height 0.5s;
 
@@ -119,7 +119,7 @@ const IconContainer = styled.li`
 export function Services() {
   return (
     <ServicesConteiner>
-        <ul>
+        <ul className="">
             <IconContainer><a><AiFillPrinter className="impresion"/>Impresión HD</a></IconContainer>
             <IconContainer><a><RxLetterCaseCapitalize className="letras"/>Letras 3D</a></IconContainer>
             <IconContainer><a><TbTruckDelivery className="rotulacion"/>Rotulación</a></IconContainer>

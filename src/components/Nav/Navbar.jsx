@@ -5,13 +5,12 @@ import { Burguer } from "./Burger";
 
 const Nav = styled.nav`
 
-    
-
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 85px;
     padding: 0 20px;
+    padding-top: 15px;
     background-color: #e2e2e2;
 
     .logo{

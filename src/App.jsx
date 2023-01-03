@@ -10,7 +10,6 @@ import { Navbar } from "./components/Nav/Navbar";
 import { Footer } from "./components/Footer/Footer";
 import { CartelerasMuestras } from "./components/Home/Cartelera/Muestras";
 import { Rotulacion } from "./components/Home/Rotulacion/Rotulacion";
-
 export default function App() {
   return (
     <BrowserRouter>
