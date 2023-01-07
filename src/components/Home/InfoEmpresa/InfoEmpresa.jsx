@@ -1,8 +1,8 @@
 
 import styled from "styled-components";
-import { SlNote } from "react-icons/sl";
-import { RiPenNibLine } from "react-icons/ri";
-import { BsImages } from "react-icons/bs";
+import { MdOutlinePriceCheck} from "react-icons/md";
+import { FiPenTool } from "react-icons/fi";
+import { FaTools } from "react-icons/fa";
 
 const Quienes = styled.div`
         
@@ -32,7 +32,7 @@ const IconContainer = styled.div`
 const InfoIcon = styled.div`
 
         text-align: center;
-        color: red;
+        color: #d30226;
 
         .icon-style{
             font-size: 60px;
@@ -48,7 +48,7 @@ const DatoEmpresa = styled.div`
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
-        background-color: red;
+        background-color:#d30226;
         width: 60%;
         height: 150px;
         justify-content: center;
@@ -75,7 +75,7 @@ const InfoVM = styled.div`
         display: block;
         width: 80%;
         height: 200px;
-        color: red;
+        color: #d30226;
         justify-content:center;
     
         .icon-style{
@@ -99,15 +99,15 @@ export function InfoEmpresa(){
         <h3>QUIENES SOMOS</h3>
         <IconContainer>
             <InfoIcon>
-                <RiPenNibLine className="icon-style"/>
+                <FiPenTool className="icon-style"/>
                 <p>DISEÑAMOS</p>
             </InfoIcon>
             <InfoIcon>
-                <BsImages className="icon-style"/>
+                <FaTools className="icon-style"/>
                 <p>INSTALAMOS</p>
             </InfoIcon>
             <InfoIcon>
-                <SlNote className="icon-style"/>
+                <MdOutlinePriceCheck className="icon-style"/>
                 <p>COTIZAMOS</p>
             </InfoIcon>
         </IconContainer>

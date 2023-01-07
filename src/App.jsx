@@ -19,7 +19,6 @@ export default function App() {
         <Route path="/servicios" element={<Servicios />}></Route>
         <Route path="/about" element={<About />}></Route>
       </Routes>
-      <Rotulacion/>
       <CartelerasMuestras/>
       <Footer/>
     </BrowserRouter>

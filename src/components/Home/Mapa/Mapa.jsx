@@ -26,7 +26,7 @@ const MapContainer = styled.div`
 const Info = styled.div`
 
     text-align: center;
-    background-color: #e73b3b;
+    background-color: #d30226;
     width: 100%;
     padding-top: 15px;
     h3, span{

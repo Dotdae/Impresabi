@@ -16,6 +16,7 @@ const ServicesConteiner = styled.div`
     margin-top: -10px;
     position: relative;
     z-index: 999;
+    padding-top: 15px;
 
 `;
 
@@ -78,7 +79,7 @@ const IconContainer = styled.li`
         text-align: center;
         font-size: 16px;
         font-weight: 600;
-        color: #D30226;
+        color: #d30226;
         display: block;
         position: absolute;
         bottom: 5px;
