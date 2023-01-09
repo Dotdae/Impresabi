@@ -14,9 +14,6 @@ export function Carrusel() {
   <SliderInicio>
     <Carousel>
         <div>
-          <img src="https://i.ibb.co/X7CqDsW/102830607-1410787355790734-8788977416744730624-n.jpg" alt="Carrusel2" />
-        </div>
-        <div>
           <img src="https://i.ibb.co/fd6qWsF/293446068-2007515116117952-4836350716607153691-n.jpg" alt="Carrusel3"/>
         </div>
         <div>

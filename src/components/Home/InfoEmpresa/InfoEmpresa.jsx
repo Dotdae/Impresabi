@@ -35,7 +35,7 @@ const InfoIcon = styled.div`
         color: #d30226;
 
         .icon-style{
-            font-size: 60px;
+            font-size: 45px;
         }
 
         p{
@@ -96,19 +96,19 @@ const InfoVM = styled.div`
 export function InfoEmpresa(){
     return(
     <Quienes>
-        <h3>QUIENES SOMOS</h3>
+        <h3>¿QUIENES SOMOS?</h3>
         <IconContainer>
             <InfoIcon>
-                <FiPenTool className="icon-style"/>
-                <p>DISEÑAMOS</p>
+                <MdOutlinePriceCheck className="icon-style"/>
+                <p>COTIZAMOS</p>
             </InfoIcon>
             <InfoIcon>
                 <FaTools className="icon-style"/>
                 <p>INSTALAMOS</p>
             </InfoIcon>
             <InfoIcon>
-                <MdOutlinePriceCheck className="icon-style"/>
-                <p>COTIZAMOS</p>
+                <FiPenTool className="icon-style"/>
+                <p>DISEÑAMOS</p>
             </InfoIcon>
         </IconContainer>
         

@@ -66,12 +66,11 @@ const FooterStyled = styled.footer`
 
     a {
       display: inline-block;
-      width: 35px;
-      height: 35px;
+      width: 30px;
+      height: 30px;
       cursor: pointer;
-      background-color: #33383b;
       border-radius: 2px;
-      font-size: 24px;
+      font-size: 25px;
       color: #ffffff;
       text-align: center;
       line-height: 35px;

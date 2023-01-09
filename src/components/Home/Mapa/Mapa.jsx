@@ -29,8 +29,13 @@ const Info = styled.div`
     background-color: #d30226;
     width: 100%;
     padding-top: 15px;
-    h3, span{
+    h3{
         color: white;
+        padding: 5px;
+    }
+    span{
+        color: white;
+        
     }
     @media (min-width: 375px) and (max-width: 768px){
 
@@ -48,7 +53,7 @@ const VideoFachada = styled.div`
         display:flex;
         width: 100%;
         height: 300px;
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 10px;
     }
 
@@ -79,8 +84,9 @@ export function Mapa() {
                 <h3>Nos encontramos en:</h3>
                 <span> Av. Independencia 1430, Jardines del Valle, 81245 Los Mochis, Sin</span>
                 <h3> Nuestro horario es:</h3>
-                <span><strong>Lunes a Sabado:</strong></span>
-                <span> 8:00-13:00, 14:00-17:00 </span>
+                <span><strong>Lunes a Viernes:</strong>Sabados: 8:00 AM - 14:00 PM </span>
+                <br />
+                <span><strong>Sabado:</strong> Sabados: 8:00 AM - 14:00 PM </span>
             </div>
             <VideoFachada>
                 <video autoPlay loop>

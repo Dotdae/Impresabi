@@ -1,5 +1,6 @@
 {
   "name": "impresabi",
+  "homepage": "https://www.impresabi.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -24,3 +25,4 @@
     "vite": "^4.0.0"
   }
 }
+
