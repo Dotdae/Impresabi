@@ -1,8 +1,9 @@
 // NeonSign.js
 import React from 'react';
 import styled from 'styled-components';
-import './fonts/Neonderthaw-Regular.ttf';
+
 const NeonRed = styled.i`
+  font-family: "neon-tubes-2-regular", sans-serif;
   --neon: hsl(355 100% 95%);
   --neon-glow: hsl(355 98% 40%);
   color: var(--neon);
@@ -12,8 +13,10 @@ const NeonRed = styled.i`
     0 0 5vmin var(--neon-glow),
     0 0 10vmin var(--neon-glow),
     0 0 15vmin var(--neon-glow);
+    margin-right: 10px;
 `;
 const NeonBlue = styled.i`
+  font-family: "neon-tubes-2-regular", sans-serif;
   --neon: hsl(192 100% 95%);
   --neon-glow: hsl(194 100% 40%);
   color: var(--neon);
@@ -23,20 +26,23 @@ const NeonBlue = styled.i`
     0 0 5vmin var(--neon-glow),
     0 0 10vmin var(--neon-glow),
     0 0 15vmin var(--neon-glow);
+    margin-left: 10px;
 `;
 const Container = styled.div`
     @font-face {
-        font-family: "Neonderthaw";
-        src: local("Neonderthaw"),
-        url("./fonts/Neonderthaw-Regular.ttf") format("truetype");
-        font-weight: bold;
+      font-family: "neon-tubes-2-regular";
+      src:
+        url("https://assets.codepen.io/2585/NeonTubes2.otf") format("woff"),
+        url("https://assets.codepen.io/2585/NeonTubes2.otf") format("opentype"),
+        url("https://assets.codepen.io/2585/NeonTubes2.otf") format("truetype")
+      ;
     }
   text-align: center;
   font-size: 50px;
   font-weight: normal;
-  font-family: "Neonderthaw";
-  
   display: grid;
+  justify-content: center;
+  align-items: center;
   place-content: center;
 `;
 export function Neon() {

@@ -16,7 +16,9 @@ const Quienes = styled.div`
             padding: 10px;
         
         }
-    
+        @media (max-width: 800px) {
+            height: auto;
+        }
 `;
 
 const IconContainer = styled.div`
@@ -27,19 +29,28 @@ const IconContainer = styled.div`
         width: 100%;
         height: 150px;
         margin-top: 5px;
+        @media (max-width: 800px) {
+            flex-wrap: wrap;
+            width: 90%;
+        }
 `;
 
 const InfoIcon = styled.div`
-
         text-align: center;
         color: #d30226;
-
         .icon-style{
             font-size: 45px;
         }
-
         p{
             font-size: 25px;
+        }
+        @media (max-width: 800px) {
+            .icon-style {
+                font-size: 30px;
+            }
+            p {
+                font-size: 20px;
+            }
         }
 `;
 
@@ -60,8 +71,12 @@ const DatoEmpresa = styled.div`
             color: white;
             
         }
-
+        @media (max-width: 800px) {
+            width: 90%;
+            height:auto;
+        }
 `;
+
 
 const VisionMision = styled.div`
         display: flex;
