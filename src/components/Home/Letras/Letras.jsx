@@ -5,6 +5,8 @@ const LetreroContainer = styled.div`
     h1{
         text-align: center;
         font-size: 50px;
+        font-family: "Roboto";
+        color: red;
     }
 `;
 const LetraContainer = styled.div` 
@@ -33,16 +35,16 @@ export function Letras(){
             <h1>Letras</h1>
             <LetraContainer>
                 <CardMuestra>
-                    <img src="https://i.ibb.co/z5hwyvS/Whats-App-Image-2022-12-07-at-8-27-43-AM.jpg" alt="Cartelera9"/>
+                    <img src="https://i.ibb.co/yN1vsSx/Imagen-de-Whats-App-2023-01-25-a-las-10-27-33.jpg" alt="Letras1"/>
                 </CardMuestra>
                 <CardMuestra>
-                    <img src="https://i.ibb.co/z5hwyvS/Whats-App-Image-2022-12-07-at-8-27-43-AM.jpg" alt="Cartelera9"/>
+                    <img src="https://i.ibb.co/kGd3f0F/letras-muestra2.jpg" alt="Letras2"/>
                 </CardMuestra>
                 <CardMuestra>
-                    <img src="https://i.ibb.co/z5hwyvS/Whats-App-Image-2022-12-07-at-8-27-43-AM.jpg" alt="Cartelera9"/>
+                    <img src="https://i.ibb.co/MZC9bvx/Whats-App-Image-2022-11-12-at-2-36-28-PM-2.jpg" alt="Letras3"/>
                 </CardMuestra>
                 <CardMuestra>
-                    <img src="https://i.ibb.co/z5hwyvS/Whats-App-Image-2022-12-07-at-8-27-43-AM.jpg" alt="Cartelera9"/>
+                    <img src="https://i.ibb.co/r21Ktz6/Whats-App-Image-2022-11-26-at-1-59-42-PM.jpg" alt="Letras4"/>
                 </CardMuestra>
             </LetraContainer>
         </LetreroContainer>
