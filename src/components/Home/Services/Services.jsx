@@ -8,7 +8,6 @@ import 'react-before-after-slider-component/dist/build.css';
 
 
 const ServicesConteiner = styled.div`
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,8 +16,12 @@ const ServicesConteiner = styled.div`
     position: relative;
     z-index: 999;
     padding-top: 15px;
-
+    
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    }
 `;
+
 
 const IconContainer = styled.li`
 
@@ -113,6 +116,10 @@ const IconContainer = styled.li`
         }
 
     }
+    @media (max-width: 768px) {
+        width: 100%;
+        margin: 20px 0;
+    } 
 
 `;
 

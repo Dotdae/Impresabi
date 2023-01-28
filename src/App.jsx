@@ -10,6 +10,7 @@ import { Footer } from "./components/Footer/Footer";
 import { CartelerasMuestras } from "./components/Home/Cartelera/Muestras";
 import { Letras } from "./components/Home/Letras/Letras";
 import { Neon } from "./components/Home/Letras/NeonSign";
+import { Rotulacion } from "./components/Home/Rotulacion/Rotulacion";
 export default function App() {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/servicios" element={<Servicios />}></Route>
         <Route path="/about" element={<About />}></Route>
       </Routes>
+      <Rotulacion/>
       <Letras/>
       <Neon/>
       <CartelerasMuestras/>

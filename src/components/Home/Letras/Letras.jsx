@@ -6,7 +6,7 @@ const LetreroContainer = styled.div`
         text-align: center;
         font-size: 50px;
         font-family: "Roboto";
-        color: red;
+        color: #d30226;
     }
 `;
 const LetraContainer = styled.div` 

@@ -60,7 +60,7 @@ const DatoEmpresa = styled.div`
         margin-top: 20px;
         margin-bottom: 20px;
         background-color:#d30226;
-        width: 60%;
+        width: 50%;
         height: 150px;
         justify-content: center;
         align-items: center;
@@ -88,23 +88,23 @@ const VisionMision = styled.div`
 
 const InfoVM = styled.div`
         display: block;
-        width: 80%;
-        height: 200px;
+        width: 650px;
+        height: 300px;
         color: #d30226;
         justify-content:center;
     
         .icon-style{
             font-size: 60px;
-            margin-top: 5px; 
+            margin-top: 2px; 
         }
         h3{
             font-size: 30px;
-            padding-top: 25px;
+            padding-top: 20px;
         }
 
         p{
             font-size: 20px;
-            padding: 15px; 
+            padding: 10px; 
         }
 `;
 
@@ -118,13 +118,14 @@ export function InfoEmpresa(){
                 <p>COTIZAMOS</p>
             </InfoIcon>
             <InfoIcon>
-                <FaTools className="icon-style"/>
-                <p>INSTALAMOS</p>
-            </InfoIcon>
-            <InfoIcon>
                 <FiPenTool className="icon-style"/>
                 <p>DISEÑAMOS</p>
             </InfoIcon>
+            <InfoIcon>
+                <FaTools className="icon-style"/>
+                <p>INSTALAMOS</p>
+            </InfoIcon>
+            
         </IconContainer>
         
         <DatoEmpresa>
