@@ -15,7 +15,6 @@ const ServicesConteiner = styled.div`
     text-align: center;
     margin-top: -10px;
     position: relative;
-    z-index: 999;
     padding-top: 15px;
 
 `;
@@ -123,7 +122,7 @@ export function Services() {
         <ul className="">
             <IconContainer><a><AiFillPrinter className="impresion"/>Impresión HD</a></IconContainer>
             <IconContainer><a><RxLetterCaseCapitalize className="letras"/>Letras 3D</a></IconContainer>
-            <IconContainer><a><TbTruckDelivery className="rotulacion"/>Rotulación</a></IconContainer>
+            <IconContainer><a href="/rotulacion"><TbTruckDelivery className="rotulacion"/>Rotulación</a></IconContainer>
             <IconContainer><a><RiFolderUserLine className="cartelera"/>Impresión a gran formato</a></IconContainer>
         </ul>   
     </ServicesConteiner>

@@ -42,7 +42,7 @@ const Info = styled.div`
         height: 350px;
 
         .info-text{
-            margin-top: 50px;
+            margin-top: 20px;
         }       
     }
 
@@ -60,8 +60,8 @@ const VideoFachada = styled.div`
     @media (min-width: 375px) and (max-width: 768px){
 
         video{
-            margin-top: 30px;
-            height: 200px;
+
+            height: 150px;
         }
 
     }
