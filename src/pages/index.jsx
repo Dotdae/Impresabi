@@ -3,7 +3,6 @@ import {Mapa} from '../components/Home/Mapa/Mapa'
 import{Whats} from '../components/Whats/Whats'
 import { InfoEmpresa } from "../components/Home/InfoEmpresa/InfoEmpresa";
 import { Services } from '../components/Home/Services/Services';
-
 export function Home() {
   return(
     <>
@@ -17,10 +16,18 @@ export function Home() {
 }
 
 export function Servicios() {
-  return <div>Esta es la página de servicios</div>;
+  return (
+    <>
+      <Services/>
+    </>
+  
+  );
 }
 
 export function About() {
-  return <div>Esta es la página about</div>;
+  return(
+      <h1> a</h1>
+  );
+      
 }
 

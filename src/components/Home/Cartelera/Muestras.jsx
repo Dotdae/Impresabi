@@ -21,9 +21,6 @@ const CardMuestra = styled.div`
         }
 `;
 
-const ContainerInfo = styled.div`
-
-`;
 
 export function CartelerasMuestras(){
     return(

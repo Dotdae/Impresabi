@@ -50,7 +50,7 @@ const Nav = styled.nav`
                     content: "";
                     height: 3px;
                     width: 0%;
-                    background: red;
+                    background: #d30226;
                     position: absolute;
                     left: 0;
                     bottom: -12px;

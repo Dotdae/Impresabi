@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 const NeonRed = styled.i`
-      font-family: "neon-tubes-2-regular", sans-serif;
       --neon: hsl(355 100% 95%);
       --neon-glow: hsl(355 98% 40%);
       color: var(--neon);
@@ -15,7 +14,6 @@ const NeonRed = styled.i`
         margin-right: 10px;
 `;
 const NeonBlue = styled.i`
-      font-family: "neon-tubes-2-regular", sans-serif;
       --neon: hsl(192 100% 95%);
       --neon-glow: hsl(194 100% 40%);
       color: var(--neon);
@@ -28,14 +26,6 @@ const NeonBlue = styled.i`
         margin-left: 10px;
 `;
 const Container = styled.div`
-    @font-face {
-      font-family: "neon-tubes-2-regular";
-      src:
-        url("https://assets.codepen.io/2585/NeonTubes2.otf") format("woff"),
-        url("https://assets.codepen.io/2585/NeonTubes2.otf") format("opentype"),
-        url("https://assets.codepen.io/2585/NeonTubes2.otf") format("truetype")
-      ;
-    }
         text-align: center;
         font-size: 50px;
         font-weight: normal;

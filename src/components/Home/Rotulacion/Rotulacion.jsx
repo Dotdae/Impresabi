@@ -44,6 +44,7 @@ export function Rotulacion(){
             <h1>Antes/Despues</h1>
             <ReactBeforeSliderComponent firstImage={third_Image} secondImage={quarter_Image} />
         </ImageStyle>
+        
     )
 }
 

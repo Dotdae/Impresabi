@@ -22,7 +22,7 @@ const Ul = styled.ul`
 
 
         flex-flow: column nowrap;
-        background-color: #e73b3b;
+        background-color:  #d30226;
         position: fixed;
         transform: ${({open}) => open ? 'translateX(0)' : 'translateX(100%)'};
         top: 0;
