@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Páginas.
 
-import { Home, Servicios, About, Rotulos } from "./pages";
+import { Home, Servicios, About, Rotulos, Carteleras, Letreros } from "./pages";
 
 // Componentes.
 
@@ -17,8 +17,9 @@ export default function App() {
         <Route index element={<Home />}></Route>
         <Route path="/servicios" element={<Servicios />}></Route>
         <Route path="/about" element={<About />}></Route>
-        <Route path="/letras" element={"Letras"}/>
+        <Route path="/letras" element={<Letreros/>}/>
         <Route path="/rotulacion" element={<Rotulos/>}/>
+        <Route path="/carteleras" element={<Carteleras/>}/>
       </Routes>
       <Whats/>
       <Footer/>
