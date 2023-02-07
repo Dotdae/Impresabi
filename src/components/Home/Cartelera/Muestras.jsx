@@ -32,17 +32,13 @@ export function CartelerasMuestras(){
                     <img src="https://i.ibb.co/P6DdkQ4/cartelera-muestra2.jpg" alt="Cartelera1"/>
                 </CardMuestra>
                 <CardMuestra>
-                    <img src="https://i.ibb.co/DbYGW8K/Whats-App-Image-2022-11-02-at-9-09-55-AM.jpg"  alt="Letras1" />
+                    <img src="https://i.ibb.co/5xRfshm/Whats-App-Image-2022-12-20-at-9-16-16-AM.jpg"  alt="Letras1" />
                 </CardMuestra>
                 <CardMuestra>
-                    <img src="https://i.ibb.co/5W5TWLk/Whats-App-Image-2022-11-05-at-2-52-15-PM.jpg" alt="Letras3"/>
+                    <img src="https://i.ibb.co/djTZK96/Whats-App-Image-2022-11-12-at-1-39-19-PM.jpg" alt="Letras3"/>
                 </CardMuestra>
                 <CardMuestra>
-                    <img src="https://i.ibb.co/vBGDKtJ/Imagen-de-Whats-App-2023-01-07-a-las-11-14-49.jpg" alt="Neon1"/>
-                </CardMuestra>
-                <CardMuestra>
-                    <img src="https://i.ibb.co/bgqtNRM/Imagen-de-Whats-App-2023-01-07-a-las-11-4-50.jpg" alt="Neon2"/>
-
+                    <img src="https://i.ibb.co/Hnz1Frz/Whats-App-Image-2022-11-23-at-12-11-16-PM.jpg" alt="Neon1"/>
                 </CardMuestra>
             </CardsContainer>
             

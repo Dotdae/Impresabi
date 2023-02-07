@@ -7,13 +7,15 @@ import { CartelerasMuestras } from '../components/Home/Cartelera/Muestras';
 import { Rotulacion } from '../components/Home/Rotulacion/Rotulacion';
 import { Letras } from '../components/Home/Letras/Letras';
 import { Neon } from '../components/Home/Neon/Neon';
+import { ImpresionHD } from '../components/Home/ImpresionHD/ImpresionHD';
+import { Footer } from '../components/Footer/Footer';
+import { MuestrasRotulacion } from '../components/Home/Rotulacion/MuestrasRotulacion';
 export function Home() {
   return(
     <>
         <Carrusel/>
         <Services/>
         <InfoEmpresa/>
-        <CartelerasMuestras/>
         <Mapa/>
         <Whats/>
     </>
@@ -31,29 +33,50 @@ export function Servicios() {
 
 export function About() {
   return(
-      <InfoEmpresa/>
-      
-  );
-      
+      <>
+        <InfoEmpresa/>
+      </>
+  ); 
+}
+
+export function Contact(){
+  return
 }
 
 export function Rotulos(){
   return(
-      <Rotulacion/>
+      <>
+        <Carrusel/>
+        <Rotulacion/>
+        <MuestrasRotulacion/>
+      </> 
     )
 }
 
 export function Carteleras(){
   return(
-    <CartelerasMuestras/>
+    <>
+      <Carrusel/>
+      <CartelerasMuestras/>
+    </>
   )
 }
 
 export function Letreros(){
   return(
       <>
+        <Carrusel/>
         <Letras/>
         <Neon/>
       </>
+  )
+}
+
+export function PrintHD(){
+  return(
+      <>
+        <Carrusel/>
+        <ImpresionHD/>
+      </>  
   )
 }

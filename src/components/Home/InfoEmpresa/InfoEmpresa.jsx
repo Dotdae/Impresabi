@@ -84,6 +84,7 @@ const VisionMision = styled.div`
         gap: 25px;
         justify-content: center;
         text-align: center;
+        
 `;
 
 const InfoVM = styled.div`
@@ -105,6 +106,10 @@ const InfoVM = styled.div`
         p{
             font-size: 20px;
             padding: 10px; 
+        }
+        @media (max-width: 800px) {
+            width: 90%;
+            height:auto;
         }
 `;
 

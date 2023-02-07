@@ -103,7 +103,7 @@ export function Navbar(){
                             <Link to={"/servicios"}>Servicios</Link>
                         </li>
                         <li className="nav-item">
-                            <a href="#">Contacto</a>
+                            <a href="/contact">Contacto</a>
                         </li>
                         <li className="nav-item">
                             <Link to={"/about"}>Acerca de</Link>

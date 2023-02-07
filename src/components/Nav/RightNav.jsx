@@ -10,9 +10,8 @@ const Ul = styled.ul`
         list-style: none; 
         display: flex;
         flex-flow: row nowrap;
-     
 
-        li {
+        li, a {
 
             padding: 18px 30px;
             color: #FFF;
@@ -41,10 +40,10 @@ const Ul = styled.ul`
 export function RightNav({open}){
     return(
         <Ul open ={open}>
-            <li>Inicio</li>
-            <li>Servicios</li>
-            <li>Contacto</li>
-            <li>Acerca de</li>
+            <li><a href="/">Inicio</a> </li>
+            <li><a href="/servicios">Servicios</a></li>
+            <li><a href="/">Contacto</a></li>
+            <li><a href="/about">Acerca de</a></li>
         </Ul>
     )
 }

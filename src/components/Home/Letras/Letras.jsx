@@ -32,19 +32,19 @@ const CardMuestra = styled.div`
 export function Letras(){
     return (
         <LetreroContainer>
-            <h1>Letras</h1>
+            
             <LetraContainer>
                 <CardMuestra>
-                    <img src="https://i.ibb.co/yN1vsSx/Imagen-de-Whats-App-2023-01-25-a-las-10-27-33.jpg" alt="Letras1"/>
+                    <img src="https://i.ibb.co/LN4fCnY/letras1.jpg" alt="Letras1"/>
                 </CardMuestra>
                 <CardMuestra>
-                    <img src="https://i.ibb.co/kGd3f0F/letras-muestra2.jpg" alt="Letras2"/>
+                    <img src="https://i.ibb.co/7X0TkGj/letras2.jpg" alt="Letras2"/>
                 </CardMuestra>
                 <CardMuestra>
-                    <img src="https://i.ibb.co/MZC9bvx/Whats-App-Image-2022-11-12-at-2-36-28-PM-2.jpg" alt="Letras3"/>
+                    <img src="https://i.ibb.co/CMH9gZY/letras3.jpg" alt="Letras3"/>
                 </CardMuestra>
                 <CardMuestra>
-                    <img src="https://i.ibb.co/r21Ktz6/Whats-App-Image-2022-11-26-at-1-59-42-PM.jpg" alt="Letras4"/>
+                    <img src="https://i.ibb.co/Lnt4p3T/letras4.jpg" alt="Letras4"/>
                 </CardMuestra>
             </LetraContainer>
         </LetreroContainer>

@@ -8,6 +8,7 @@ const FooterStyled = styled.footer`
   box-sizing: border-box;
   width: 100%;
   text-align: left;
+  
   font: bold 16px sans-serif;
   padding: 35px 30px;
 
@@ -15,9 +16,6 @@ const FooterStyled = styled.footer`
     color: #ffffff;
     font: normal 36px "Roboto", cursive;
     margin: 0;
-    span {
-      color: lightseagreen;
-    }
   }
 
   .footer-links {
@@ -67,7 +65,7 @@ const FooterStyled = styled.footer`
     a {
       display: inline-block;
       width: 30px;
-      height: 30px;
+      height: 3s0px;
       cursor: pointer;
       border-radius: 2px;
       font-size: 25px;
@@ -78,18 +76,17 @@ const FooterStyled = styled.footer`
       margin-bottom: 5px;
     }
   }
-
-  @media (max-width: 768px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  @media (max-width: 800px) {
+            width: auto;
+            height:auto;
+        }
 `;
 
 const FooterLeft = styled.div`
   display: inline-block;
   vertical-align: top;
-  width: 40%;
+  margin-right: 10px;
+  width: 35%;
 
   .logo img {
     width: 100px;
@@ -101,10 +98,11 @@ const FooterCenter = styled.div`
   display: inline-block;
   vertical-align: top;
   width: 35%;
+  margin-left: 5px;
 
   .icon-style{
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
     height: 30px;
     border-radius: 50%;
     text-align: center;
@@ -118,25 +116,20 @@ const FooterCenter = styled.div`
     color: #ffffff;
     font-weight: 400;
     vertical-align: middle;
-    margin: 0;
-
-    span {
-      display: block;
-      font-weight: normal;
-      font-size: 12px;
-      line-height: 2;
-    }
-
+    padding-top: 15px;
     a {
       color: lightseagreen;
       text-decoration: none;
+
     }
+    
   }
 `;
 
 const FooterRight = styled.div`
   display: inline-block;
   vertical-align: top;
+  margin-left: 10px;
   width: 20%;
 
   h3 {
@@ -146,25 +139,34 @@ const FooterRight = styled.div`
     font-weight: bold;
     margin-bottom: 20px;
   }
+  .icon-style{
+    color: #ffffff;
+    font-size: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+
 
   p {
     display: inline-block;
     color: #ffffff;
     font-weight: 400;
     vertical-align: middle;
-    margin: 0;
-
-    span {
-      display: block;
-      font-weight: normal;
-      font-size: 12px;
-      line-height: 2;
-    }
+    margin-left: 25px;
   }
+
+  @media (max-width: 800px) {
+            height: auto;
+        }
 `;
 
 const IconFooter = styled.div`
-
+    display: flex;
+    margin-top: 5px;
 `;
 
 export function Footer() {
@@ -177,22 +179,16 @@ export function Footer() {
           </a>
         </div>
         <p className="footer-links">
-          <a href="#" class="link-1">
-            Inicio
-          </a>
-
-          <a href="#services">Servicios</a>
-
-          <a href="#contact">Contacto</a>
-
-          <a href="#acercade">Acerca de</a>
+          <a href="#">Inicio</a>
+          <a href="/servicios">Servicios</a>
+          <a href="/contact">Contacto</a>
+          <a href="/about">Acerca de</a>
         </p>
         <p className="footer-company-name">Impresabi © 2022</p>
       </FooterLeft>
       <FooterCenter>
-
         <IconFooter>
-          <i><FaMapMarkerAlt className="icon-style"></FaMapMarkerAlt></i>
+          <FaMapMarkerAlt className="icon-style"></FaMapMarkerAlt>
           <p> Av. Independencia 1430, Jardines del Valle, 81245 Los Mochis, Sin.</p>
         </IconFooter>
         
@@ -208,13 +204,13 @@ export function Footer() {
                 atencionaclientes@impresabi.com</a>
           </p>
         </IconFooter>
-      
       </FooterCenter>
+      
       <FooterRight>
         <h3>Siguenos en</h3>
         <div className="footer-icons">
           <a href="https://www.facebook.com/Impresabi">
-            <FaFacebook></FaFacebook>
+            <FaFacebook className="icon-style"></FaFacebook>
           </a>
           <p>Impresabi</p>
         </div>

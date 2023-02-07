@@ -120,7 +120,7 @@ export function Services() {
   return (
     <ServicesConteiner>
         <ul className="">
-            <IconContainer><a><AiFillPrinter className="impresion"/>Impresión HD</a></IconContainer>
+            <IconContainer><a href="/impresionHD"><AiFillPrinter className="impresion"/>Impresión HD</a></IconContainer>
             <IconContainer><a href="/letras"><RxLetterCaseCapitalize className="letras"/>Letras 3D</a></IconContainer>
             <IconContainer><a href="/rotulacion"><TbTruckDelivery className="rotulacion"/>Rotulación</a></IconContainer>
             <IconContainer><a href="/carteleras"><RiFolderUserLine className="cartelera"/>Impresión a gran formato</a></IconContainer>
