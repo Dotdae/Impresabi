@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route,} from "react-router-dom";
 // Páginas.
 
 import { Home, Servicios, About, Rotulos, Carteleras, Letreros, PrintHD, Contact } from "./pages";
@@ -15,13 +15,13 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route index element={<Home />}></Route>
-        <Route path="/servicios" element={<Servicios />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/letras" element={<Letreros/>}/>
-        <Route path="/rotulacion" element={<Rotulos/>}/>
-        <Route path="/carteleras" element={<Carteleras/>}/>
-        <Route path="/impresionHD" element={<PrintHD/>}/>
+        <Route path="/Servicios" element={<Servicios/>}></Route>
+        <Route path="/About" element={<About />}></Route>
+        <Route path="/Contact" element={<Contact />}></Route>
+        <Route path="/Letras" element={<Letreros/>}/>
+        <Route path="/Rotulacion" element={<Rotulos/>}/>
+        <Route path="/Carteleras" element={<Carteleras/>}/>
+        <Route path="/ImpresionHD" element={<PrintHD/>}/>
       </Routes>
       <Whats/>
       <Footer/>

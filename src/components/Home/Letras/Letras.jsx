@@ -32,7 +32,7 @@ const CardMuestra = styled.div`
 export function Letras(){
     return (
         <LetreroContainer>
-            
+        
             <LetraContainer>
                 <CardMuestra>
                     <img src="https://i.ibb.co/LN4fCnY/letras1.jpg" alt="Letras1"/>

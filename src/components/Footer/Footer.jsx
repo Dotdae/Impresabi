@@ -2,13 +2,14 @@ import styled from "styled-components";
 import logo from "../../assets/logo.png";
 import { FaMapMarkerAlt,FaPhoneAlt, FaFacebook} from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+
+
 const FooterStyled = styled.footer`
   background: #d30226;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  
   font: bold 16px sans-serif;
   padding: 35px 30px;
 
@@ -52,30 +53,21 @@ const FooterStyled = styled.footer`
     font-weight: normal;
     margin: 0;
   }
-  .footer-company-about {
-    line-height: 20px;
-    color: #92999f;
-    font-size: 13px;
-    font-weight: normal;
-    margin: 0;
-  }
   .footer-icons {
     margin-top: 25px;
 
     a {
       display: inline-block;
       width: 30px;
-      height: 3s0px;
+      height: 30px;
       cursor: pointer;
       border-radius: 2px;
       font-size: 25px;
-      color: #ffffff;
+      color: #be0d0d;
       text-align: center;
-      line-height: 35px;
-      margin-right: 3px;
-      margin-bottom: 5px;
     }
   }
+
   @media (max-width: 800px) {
             width: auto;
             height:auto;
@@ -87,10 +79,19 @@ const FooterLeft = styled.div`
   vertical-align: top;
   margin-right: 10px;
   width: 35%;
+  @media (max-width: 767px) {
+    width: 100%;
+    display: block;
+    margin-right: 0;
+  }
 
   .logo img {
     width: 100px;
     cursor: pointer;
+
+    @media (max-width: 767px) {
+      width: 80px;
+    }
   }
 `;
 
@@ -99,16 +100,15 @@ const FooterCenter = styled.div`
   vertical-align: top;
   width: 35%;
   margin-left: 5px;
+  margin: 10px 5px;
 
   .icon-style{
-    color: #ffffff;
-    font-size: 30px;
-    height: 30px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 38px;
-    margin: 10px 15px;
-    vertical-align: middle;
+      color: #ffffff;
+      font-size: 30px;
+      height: 30px;
+      text-align: center;
+      vertical-align: middle;
+      margin: 10px;
   }
 
   p {
@@ -120,9 +120,26 @@ const FooterCenter = styled.div`
     a {
       color: lightseagreen;
       text-decoration: none;
+      font-size: 15px;
+      
 
     }
     
+  }
+  @media (max-width: 767px) {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+
+    .icon-style {
+      font-size: 20px;
+      height: 20px;
+    }
+
+    p {
+      display: block;
+      padding-top: 10px;
+    }
   }
 `;
 
@@ -130,7 +147,7 @@ const FooterRight = styled.div`
   display: inline-block;
   vertical-align: top;
   margin-left: 10px;
-  width: 20%;
+  width: 25%;
 
   h3 {
     display: block;
@@ -158,10 +175,26 @@ const FooterRight = styled.div`
     vertical-align: middle;
     margin-left: 25px;
   }
+  @media (max-width: 768px) {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
 
-  @media (max-width: 800px) {
-            height: auto;
-        }
+    h3 {
+      margin-bottom: 10px;
+    }
+
+    .icon-style {
+      margin: 10px auto;
+    }
+
+    p {
+      display: block;
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
 `;
 
 const IconFooter = styled.div`
@@ -186,7 +219,8 @@ export function Footer() {
         </p>
         <p className="footer-company-name">Impresabi © 2022</p>
       </FooterLeft>
-      <FooterCenter>
+
+      <FooterCenter>  
         <IconFooter>
           <FaMapMarkerAlt className="icon-style"></FaMapMarkerAlt>
           <p> Av. Independencia 1430, Jardines del Valle, 81245 Los Mochis, Sin.</p>
@@ -199,10 +233,7 @@ export function Footer() {
         
         <IconFooter>
           <MdEmail className="icon-style"></MdEmail>
-          <p>
-            <a href="mailto:atencionaclientes@impresabi.com">
-                atencionaclientes@impresabi.com</a>
-          </p>
+          <p><a href="mailto:atencionaclientes@impresabi.com">atencionaclientes@impresabi.com</a></p>
         </IconFooter>
       </FooterCenter>
       

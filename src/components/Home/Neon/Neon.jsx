@@ -12,6 +12,10 @@ const NeonRed = styled.i`
         0 0 10vmin var(--neon-glow),
         0 0 15vmin var(--neon-glow);
         margin-right: 10px;
+
+        @media (max-width: 768px) {
+        font-size: 30px;
+      }
 `;
 const NeonBlue = styled.i`
       --neon: hsl(192 100% 95%);
@@ -24,6 +28,9 @@ const NeonBlue = styled.i`
         0 0 10vmin var(--neon-glow),
         0 0 15vmin var(--neon-glow);
         margin-left: 10px;
+        @media (max-width: 768px) {
+        font-size: 30px;
+      }
 `;
 const Container = styled.div`
         text-align: center;

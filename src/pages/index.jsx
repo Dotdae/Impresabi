@@ -8,8 +8,9 @@ import { Rotulacion } from '../components/Home/Rotulacion/Rotulacion';
 import { Letras } from '../components/Home/Letras/Letras';
 import { Neon } from '../components/Home/Neon/Neon';
 import { ImpresionHD } from '../components/Home/ImpresionHD/ImpresionHD';
-import { Footer } from '../components/Footer/Footer';
 import { MuestrasRotulacion } from '../components/Home/Rotulacion/MuestrasRotulacion';
+
+
 export function Home() {
   return(
     <>
@@ -25,6 +26,7 @@ export function Home() {
 export function Servicios() {
   return (
     <>
+      <Carrusel/>
       <Services/>
     </>
   

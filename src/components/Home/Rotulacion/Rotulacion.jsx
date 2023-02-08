@@ -9,7 +9,6 @@ const second_Image = {
 
     imageUrl: 'https://i.ibb.co/DWtrQFq/Imagen-de-Whats-App-2022-12-30-a-las-14-40-31.jpg'
 }
-
 const ImageStyle = styled.div`
     display: grid;
     justify-content: center;

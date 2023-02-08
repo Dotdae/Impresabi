@@ -19,6 +19,7 @@ const Nav = styled.nav`
 
             width: 130px;
             cursor: pointer;
+            margin-left: 10px;
 
         }
     }
@@ -100,13 +101,13 @@ export function Navbar(){
                             <Link to={"/"}>Inicio</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to={"/servicios"}>Servicios</Link>
+                            <Link to={"/Servicios"}>Servicios</Link>
                         </li>
                         <li className="nav-item">
-                            <a href="/contact">Contacto</a>
+                            <Link to={"/Contact"}>Contacto</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to={"/about"}>Acerca de</Link>
+                            <Link to={"/About"}>Acerca de</Link>
                         </li>
                     </ul>
                 </nav>

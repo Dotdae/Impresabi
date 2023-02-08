@@ -1,5 +1,5 @@
 import styled from "styled-components"
-
+import { Link } from "react-router-dom";
 const Ul = styled.ul`
 
     display: none;
@@ -36,14 +36,17 @@ const Ul = styled.ul`
     }
 
 `;
+const ImageLogo = styled.div`
+    
+`;
 
 export function RightNav({open}){
     return(
         <Ul open ={open}>
-            <li><a href="/">Inicio</a> </li>
-            <li><a href="/servicios">Servicios</a></li>
-            <li><a href="/">Contacto</a></li>
-            <li><a href="/about">Acerca de</a></li>
+            <li><Link to="/">Inicio</Link> </li>
+            <li><Link to="/Servicios">Servicios</Link></li>
+            <li><a href="/Contact">Contacto</a></li>
+            <li><a href="/About">Acerca de</a></li>
         </Ul>
     )
 }
