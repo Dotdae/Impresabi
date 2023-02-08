@@ -18,6 +18,10 @@ const ImageStyle = styled.div`
         width: 100%;
         height: 500px
     }
+    @media (max-width:768px) {
+        img{
+            height: 300px;
+        }
 `;
 
 export function Rotulacion(){

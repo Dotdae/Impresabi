@@ -68,10 +68,7 @@ const FooterStyled = styled.footer`
     }
   }
 
-  @media (max-width: 800px) {
-            width: auto;
-            height:auto;
-        }
+
 `;
 
 const FooterLeft = styled.div`
@@ -79,19 +76,26 @@ const FooterLeft = styled.div`
   vertical-align: top;
   margin-right: 10px;
   width: 35%;
-  @media (max-width: 767px) {
-    width: 100%;
-    display: block;
-    margin-right: 0;
-  }
 
   .logo img {
     width: 100px;
     cursor: pointer;
+  }
+  @media (max-width: 767px) {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0;
+  
 
+  .logo img {
+    width: 100px;
+    cursor: pointer;
     @media (max-width: 767px) {
       width: 80px;
     }
+  }
+  
   }
 `;
 
@@ -128,16 +132,18 @@ const FooterCenter = styled.div`
   }
   @media (max-width: 767px) {
     width: 100%;
+    display: block;
     text-align: center;
-    margin-left: 0;
-
+    margin: 0;
     .icon-style {
+      text-align: center;
       font-size: 20px;
       height: 20px;
     }
 
     p {
       display: block;
+      text-align: center;
       padding-top: 10px;
     }
   }
